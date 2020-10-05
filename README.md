@@ -19,6 +19,10 @@ Resnsのバックエンド
 #### api6
 リストに記事の追加、削除のapi
 
+<<<<<<< HEAD
+#### DB
+性別 0:男 1:女  
+
 ### データベースの接続情報を設定する
 環境変数にデータベースの接続情報を設定します。
 ターミナルのセッション毎に設定したり、.bash_profileで設定を行います。
@@ -31,6 +35,7 @@ $ export MYSQL_USER=root \
     MYSQL_PORT=3306 \
     MYSQL_DATABASE=resns_app
 ```
+
 - Windowsの場合
 ```cassandraql
 $ SET MYSQL_USER=root
